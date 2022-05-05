@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Intro & Selectiors</title>
+
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>
+		<!-- internal CSS -->
+		<!-- <style>
+			/*element {property: value}*/
+
+			body {
+				background-color: lightblue;
+			}
+
+			h2 {background-color: coral;}
+
+			span {
+				background-color: red;
+				color: Yellow;
+			}
+
+		</style> -->
+
+		<!-- inline CSS -->
+		<!-- <p style="color:darkred">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et <span>dolore</span> magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+ -->
+		<!-- <h1 style="color:green;">Hello World!</h1> -->
+		<h1>Hello World!</h1>
+
+		<h1 id="title-1">Hello World!</h1>
+
+		<h2 class="class-1">Welcome to <span>Zuitt!</span></h2>
+
+		<form>	
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname">
+			<br />
+
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname">
+			<br />
+
+			<label for="email">Email</label>
+			<input type="email" id="email">
+			<br />
+
+			<button type="submit">Submit</button>
+		</form>
+
+		<!-- Combinator Selectors -->
+		<div id="parent">
+			<p>First Paragraph</p>
+			<p>Second Paragraph</p>
+			<section>
+				<p>Third Paragraph</p>
+			</section>
+			<p>Trial Paragraph</p>
+		</div>
+
+		<p>Fourth Paragraph</p>
+		<p>Fifth Paragraph</p>
+
+		<div>
+			<p>Sixth Paragraph</p>
+			<p>Seventh Paragraph</p>
+		</div>
+
+			<p>another trial paragraph</p>
+
+		<div>
+			<p>Eight Paragraph</p>
+			<p>Ninth Paragraph</p>
+			<p>new paragraph</p>
+		</div>
+	</body>
+</html>

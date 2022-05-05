@@ -1,0 +1,115 @@
+/*Universal Selector*/
+*{
+	/*margin: 0;
+	padding: 0;*/
+	box-sizing: border-box;
+	/*font-family: 'Lobster', cursive;*/
+}
+
+/*change the color h1 element to brown using type selector*/
+h1 {
+	color: brown;
+}
+
+/*Change the color of h1 element to pink using ID Selector and font-size to 20*/
+#title-1	{
+	color: pink;
+	font-size: 20px;
+}
+
+/*Change the color of h2 element to blue and transform the text to uppercase using Class selector*/
+
+.class-1 {
+	color: blue;
+	text-transform: uppercase;
+}
+
+/*change the background color of input fields with an attribute fo type=text to orange using attribute selector*/
+[type="text"] {
+	background-color: orange;
+}
+
+/*Change the background of the whole web page to color light blue*/
+body {
+	background-color: lightblue;
+	font-family: 'Lobster', cursive;
+}
+
+h2{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+/*Change the font family of the whole web page to 'Lobster', cursive*/
+
+/*1. Combinator Selectors*/
+
+/*1. Descendant Selector (whites pace)
+		-selects/targets "all elemts" that matches specified element (regardless if children/grandchildren elements)
+
+		syntax:
+
+		first_Element child_element {
+		property:  value;
+		}
+*/
+/*div p {
+	background-color: red;
+}*/
+
+/*#parent p {
+	background-color: chocolate;
+}*/
+
+/*div section p {
+	background-color: chocolate;
+}*/
+
+/*#parent section p {
+	background-color: chocolate;
+}*/
+
+
+/*2. Child Selector
+	- selects/targets "all elenebts" that are "children" of a specified element
+
+	first_Element child_element {
+		property:  value;
+		}
+
+*/
+
+/*div > p {
+	background-color: chocolate;
+}*/
+
+/*3. Adjacent Sibling Selector (+)
+	- select/targets an element that is directly after(katabi) the first select
+
+	syntax: ;
+
+	first_Element + sibling_element {
+		property:  value;
+	}
+*/
+/*p + p {
+	background-color: chocolate;
+}*/
+
+div + p {
+	background-color: chocolate;
+}
+
+/*4. General Sibling Selector (~)
+	- selects/targets "all elements" that are "siblings" of a specific element
+
+	syntanx: 
+
+	first_Element ~ sibling_element {
+		property: value;
+	}
+
+*/
+
+/*p ~ p {
+	background-color: chocolate;
+}*/

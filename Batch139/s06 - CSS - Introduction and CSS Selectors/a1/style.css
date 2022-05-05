@@ -1,0 +1,39 @@
+* {
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+h1	{
+	font-size: 60px;
+}
+
+#header-2 {
+	text-transform: uppercase;
+}
+
+.list-1 {
+	background-color: mediumspringgreen;
+}
+
+[class="list-2"] {
+	border-color: lightblue;
+	border-style: solid;
+}
+
+figure img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+div + li {
+	list-style-type: square;
+}
+
+div > li {
+	letter-spacing: 10px;
+}
+
+div ~ p {
+	text-align: center;
+}

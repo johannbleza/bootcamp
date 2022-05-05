@@ -1,0 +1,28 @@
+<script>
+    let collection = [];
+
+    function addToStack(element) {
+       collection.push(element)
+       return collection
+    }
+    addToStack(1);
+    addToStack(2);
+    addToStack(3);
+    addToStack(4);
+    addToStack(5);
+    console.log(collection)
+
+    function removeFromStack() {
+        collection.pop()
+        return collection
+    }
+
+    function peek() {
+       return collection[collection.length-1]
+    }
+
+    function getLength() {
+        return collection.length
+    }
+    
+</script>

@@ -1,0 +1,252 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    margin-top: 50px;
+}
+
+.logo {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.navbar{
+    background-color: #00060E;
+}
+.navbar-brand{
+    color: black;
+}
+
+.nav-item {
+    color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.herotext {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+}
+
+.jumbotron p {
+    font-size: 15px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.socmed {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.jumbotron {
+    background-image: url(./pics/bgg.gif);
+    background-size: cover;
+}
+
+@media (min-width: 425px) {
+    .jumbotron h5{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .jumbotron p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .socmed {
+        width: 15px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .jumbotron h5{
+        margin-left: 40px;
+        font-size: 45px;
+    }
+
+    .jumbotron p {
+        font-size: 35px;
+        margin-left: 40px;
+        padding-bottom: 50px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    .socmed {
+    width: 30px;
+    margin-left: 40px;
+    }
+
+    .myprojects {
+        font-size: 80px;
+    }
+
+    .contactstext {
+        font-size: 30px;
+    }
+
+    .bio {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbotron h5 {
+        font-size: 55px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .jumbotron p {
+        font-size: 35px;
+        margin-left: 50px;
+        padding-bottom: 100px;
+        -webkit-text-stroke-width: 1px;
+    }
+
+        .socmed {
+        width: 40px;
+        margin-left: 50px
+        }
+
+    .myprojects {
+        font-size: 100px;
+    }
+
+    .portrait2 {
+
+        margin-left: 50px;
+    }
+
+    .bio {
+        margin-left: 70px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .jumbotron h5 {
+        font-size: 80px;
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+    .jumbotron p {
+        font-size: 60px;
+        margin-left: 60px;
+        padding-bottom: 100px;
+        -webkit-text-stroke-width: 2px;
+    }
+
+    .socmed {
+        width: 70px;
+        margin-left: 60px;
+    }
+
+    .jumbotron-body {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .scrollpsy {
+    margin-bottom: 100px;
+    }
+
+    .aboutsection {
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .jumbotron h5 {
+        font-size: 110px;
+        margin-left: 120px
+        margin-top: 100px;
+    }
+    .jumbotron p {
+        font-size: 80px;
+        margin-left: 120px
+        padding-bottom: 250px;
+    }
+
+        .socmed {
+        width: 100px;
+        margin-left: 120px;
+        }
+}
+
+.myprojects {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#projectstext {
+
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+}
+
+
+
+.bg2 {
+    background-image: url(./pics/bg2.gif);
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+a:visited {
+  color: black;
+}
+
+.socmed2 {
+
+    width: 80px;
+}
+
+
+.contacts {
+
+    padding: 50px;
+    padding-bottom: 150px;
+}
+
+.contactsicon {
+    width: 50px;
+    margin: 20px;
+}
+
