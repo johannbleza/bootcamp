@@ -10,7 +10,7 @@ const productRoutes = require("./routes/productRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 
 // mongodb connection & notification
-mongoose.connect('mongodb+srv://admin:admin@batch139.axzmg.mongodb.net/ecommerce-api?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://johannbleza:johannbleza@cluster0.axzmg.mongodb.net/?retryWrites=true&w=majority');
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
 db.once('open',  () => console.log('Connected to Database'));
